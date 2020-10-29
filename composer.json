@@ -1,0 +1,30 @@
+{
+  "name": "jncinet/qihucms-search",
+  "description": "qihucms search.",
+  "keywords": [
+    "laravel",
+    "qihucms",
+    "search"
+  ],
+  "homepage": "https://www.qihucms.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhangye",
+      "email": "y@qilephp.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Qihucms\\Search\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Qihucms\\Search\\SearchServiceProvider"
+      ]
+    }
+  }
+}
