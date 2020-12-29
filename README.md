@@ -2,7 +2,7 @@
 
 ## 安装
 ```shell
-$ composer require jncinet/laravel-search
+$ composer require jncinet/qihucms-search
 ```
 
 ## 使用
