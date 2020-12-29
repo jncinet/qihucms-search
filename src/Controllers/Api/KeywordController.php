@@ -2,12 +2,12 @@
 
 namespace Qihucms\Search\Controllers\Api;
 
-use App\Http\Controllers\Api\ApiController;
+use App\Http\Controllers\Controller;
 use Qihucms\Search\Resources\KeywordCollection;
 use Qihucms\Search\Models\SearchKeyword;
 use Illuminate\Http\Request;
 
-class KeywordController extends ApiController
+class KeywordController extends Controller
 {
     /**
      * 关键词列表

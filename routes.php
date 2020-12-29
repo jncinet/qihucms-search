@@ -4,7 +4,7 @@ use Illuminate\Routing\Router;
 
 // 接口
 Route::group([
-    'prefix' => 'search',
+    'prefix' => config('qihu.search_prefix', 'search'),
     'namespace' => 'Qihucms\Search\Controllers\Api',
     'middleware' => ['api'],
 ], function (Router $router) {

@@ -2,13 +2,13 @@
 
 namespace Qihucms\Search\Controllers\Admin;
 
+use App\Admin\Controllers\Controller;
 use Qihucms\Search\Models\SearchKeyword;
-use Encore\Admin\Controllers\AdminController;
 use Encore\Admin\Form;
 use Encore\Admin\Grid;
 use Encore\Admin\Show;
 
-class KeywordController extends AdminController
+class KeywordController extends Controller
 {
     /**
      * Title for current resource.
