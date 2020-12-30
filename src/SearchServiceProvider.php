@@ -33,6 +33,6 @@ class SearchServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '/../resources/lang' => resource_path('lang/vendor/search'),
-        ], 'search');
+        ]);
     }
 }
